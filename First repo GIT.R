@@ -1,0 +1,6 @@
+setwd("C:/Users/manuel/Documents/tiburones/isotopos/marcadores/R scripts")
+list.files()
+install.packages("siar")
+library(siar)
+graphics.off()
+mydata <- read.table("Tabla1.txt",sep="\t",header=T)
